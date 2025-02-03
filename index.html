@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Invitation</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #ffccd5;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #ff4d6d;
+            color: white;
+        }
+        .no {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be My Valentine? <span class="heart">❤</span></h1>
+        <div class="buttons">
+            <button class="yes" onclick="accepted()">Yes</button>
+            <button class="no" onmouseover="moveButton(this)">No</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Pastikan file js/script.js ada -->
+</body>
+</html>
